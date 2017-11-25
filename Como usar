@@ -1,0 +1,24 @@
+Requisitos:
+
+Estar logado como administrador.
+Ter a Política de Execução definida como irrestrita para executar scripts. (Etapas detalhadas abaixo)
+Acesso à internet.
+Ter o cliente Windows Spotify instalado.
+[Opcional mas recomendado] Tenha uma conta logada no cliente.
+Ter o cliente fechado.
+Como usá-lo:
+
+(Politica de execução)
+Abra uma janela de powershell como administrador e digite o seguinte:
+
+    Set-ExecutionPolicy unrestricted
+Pressione Enter, digite "S" (sem as aspas) e pressione enter novamente. Agora você pode fechar a janela do powershell.
+
+Baixe o arquivo "Remove-Spotify-Ads.ps1" para o seu computador.
+Clique com o botão direito do mouse sobre ele e selecione "Executar com powershell".
+Aceite o prompt de administração.
+Problemas conhecidos:
+
+O script provavelmente falhará (palavras vermelhas na janela azul) se você tentar executá-lo novamente por causa de um arquivo específico sendo renomeado, então, quando executado novamente, o script tentará renomear um arquivo que não existe mais. (Isso irá corrigir isso nos próximos dias)
+Se você estiver logado, em uma conta não-admin, o script não funcionará, pois requer direitos de administrador.
+Diz-me tu.
