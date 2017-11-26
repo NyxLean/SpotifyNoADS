@@ -14,7 +14,7 @@ Abra uma janela de powershell como administrador e digite o seguinte:
     Set-ExecutionPolicy unrestricted
 Pressione Enter, digite "S" (sem as aspas) e pressione enter novamente. Agora você pode fechar a janela do powershell.
 
-Baixe o arquivo "Remove-Spotify-Ads.ps1" para o seu computador.
+Baixe o arquivo "SpotifyNoADS.ps1" para o seu computador.
 Clique com o botão direito do mouse sobre ele e selecione "Executar com powershell".
 Aceite o prompt de administração.
 Problemas conhecidos:
